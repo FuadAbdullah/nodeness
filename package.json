@@ -1,0 +1,34 @@
+{
+  "name": "nodeness",
+  "version": "1.0.0",
+  "description": "A fun node application",
+  "main": "app.js",
+  "scripts": {
+    "dev": "env-cmd .env nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuadAbdullah/nodeness.git"
+  },
+  "keywords": [
+    "node",
+    "app",
+    "fun"
+  ],
+  "author": "Fuad Abdullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FuadAbdullah/nodeness/issues"
+  },
+  "homepage": "https://github.com/FuadAbdullah/nodeness#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "nodemon": "^2.0.7"
+  }
+}

@@ -46,37 +46,18 @@ Updated: 11/06/2021
 
 ## Changelogs
 
-Updated: 11/06/2021
+Updated: 12/06/2021
 
 - Documentation
-  - Added [Title](#nodeness)
-  - Added description of project under title header
-  - Added [Placeholder to the terms of Nodeness](#terms-definition)
-  - Added [Features planned for the application](#planned-features)
-  - Added [Placeholder to track progress](#progress-tracker)
-  - Added [Placeholder to assumptions throughout the project duration](#assumptions)
-  - Added [Placeholder to changelogs of project planner and project file](#changelogs)
-  - Added [Placeholder to TODOs for the project planner](#documentation-todos)
-  - Added [Placeholder for references](#references)
-  - Added [Placeholder to TODOs for the project](#project-todos)
+  - Not available at the moment
 - Project File
-  - Added misc folder
-  - Added changelogs under misc
-  - Added routes folder
-  - Added audioplayer.js and index.js under routes
-  - Added app.js
-  - Added index.js
-  - Added README.md
-  - Added db folder
-  - Added middleware folder
-  - Added middleware.js under middleware
-  - Added mongoose.js under db
+  - Experimented with audio player through terminal
 
 ## Project TODOs
 
-Updated: 11/06/2021
+Updated: 12/06/2021
 
-- Not available at the moment
+- Try using child_process to spawn new process everytime an endpoint is called
 
 ## Documentation TODOs
 
@@ -86,6 +67,7 @@ Updated: 11/06/2021
 
 ## References
 
-Updated: 11/06/2021
+Updated: 12/06/2021
 
-Not available at the moment
+- [Kill an ongoing bash script](https://unix.stackexchange.com/questions/174028/killing-a-shell-script-running-in-background)
+- [Node JS Child Process](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/)
