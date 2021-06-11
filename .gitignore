@@ -120,3 +120,6 @@ dist
 # resilio folder
 .sync
 
+# workspace
+nodeness.code-workspace
+
