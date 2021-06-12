@@ -4,6 +4,7 @@ const audioPlayerRoute = require('./routes/audioplayer');
 const morgan = require('morgan');
 
 const app = express();
+app.set('view engine', 'pug');
 app.use(morgan('dev'));
 app.use(express.static(`${__dirname}/`));
 app.use(mainRoute);

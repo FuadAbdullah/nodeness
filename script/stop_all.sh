@@ -1,1 +1,0 @@
-killall /usr/bin/omxplayer /usr/bin/omxplayer.bin

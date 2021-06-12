@@ -1,5 +1,6 @@
-const shelljs = require('shelljs');
-const tanjiroNoUta = shelljs.exec(`sh ${__dirname}/tanjiro_no_uta.sh`);
+var module = 'omxplayer';
+var script = `${__dirname}/../assets/audio/tanjiro.mp3`;
 
-
-module.exports = tanjiroNoUta;
+const exec = require('child_process').exec;
+const createChild = exec(`${module} ${script}`);
+console.log(`Child PID: ${createChild.pid}`);
